@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basico</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <div class="contenedor sangria">
+        <header class="encabezado">
+            Encabezado
+        </header>
+        <!-- <p class="inlineTest" style="background: red;">Inline test</p> -->
+        <div class="in-contenedor">
+            <nav class="navigation">Barra de navegacion</nav>
+            <div class="secciones">
+                <section class="content">Seccion 1
+                    <header id="sub">Encabezado de Seccion 1</header>
+                    <article>Articulo de Seccion 1</article>
+                    <footer id="sub">Pie de Seccion 1</footer>
+                </section>
+                <section class="content">Seccion 2
+                    <header id="sub">Encabezado de Seccion 2</header>
+                    <article>Articulo de Seccion 2</article>
+                    <footer id="sub">Pie de Seccion 2</footer>
+                </section>
+            </div>
+
+
+            <aside class="sidebar">Aside</aside>
+        </div>
+
+        <footer class="footer">Pie</footer>
+    </div>
+
+
+</body>
+
+</html>
+<!-- 
+    1. ¿Cómo podría agregar peso a la definición de fuente global(global font definition)
+    para ganarse las clases agregadas por el punto 3?
+    R: Para que la fuente global abarque las nuevas clases se agrega el selector * e !important a los
+    elementos.
+    2. Imagine que hay una declaración como class=”no-puedo-usar-inline-styles”
+    style=”background:red” y necesita cambiar el fondo a verde sin cambiar el estilo en línea. ¿Cómo podrías lograr esto?
+    R: Se agrega a la clase el atributo background:green !important.
+-->
