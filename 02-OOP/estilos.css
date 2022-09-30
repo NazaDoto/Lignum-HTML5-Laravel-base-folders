@@ -100,7 +100,13 @@ html {
     display: inline-block;
     vertical-align: top;
 }
-
+.pelicula{
+    display: inline-block;
+    border-radius: 10px;
+    padding:10px;
+    background-color: aquamarine;
+    width: 20%;
+}
 @keyframes fadeIn {
     0% {
         color: red;
